@@ -1,0 +1,54 @@
+.container{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 20px;
+    
+}
+
+.title{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Gloria Hallelujah', cursive;
+    
+}
+
+h1{
+    margin-top: 50px;
+}
+
+#submit{
+    border-radius: 10px;
+    color: blue;
+    margin-top: 15px;
+    text-align: center;
+    font-size: medium;
+    
+}
+
+#submit2{
+     border-radius: 10px;
+    color: blue;
+    margin-top: 15px;
+    text-align: center;
+    font-size: medium;
+    background-color:lightgrey;
+    
+}
+
+#input{
+    border-radius: 20px;
+}
+
+#foreCast{
+    font-size: 15px;
+    font-family: 'Arapey', serif;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}

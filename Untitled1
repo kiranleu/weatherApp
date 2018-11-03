@@ -1,0 +1,18 @@
+let xhr = new XMLHttpRequest(); //everytime this message is sent the following function will run
+
+xhr.onreadystatechange = function(){
+    if(this.readyState == 4 && this.status == 200) {  //is the ready state equals to 4 and status to 200
+        document.getElementById("returnData").innerHTML = this.responseText;//then set returnData id to whatever comes back to the server
+    }
+}
+
+(4) We check what the ready states is because is 5 diff states
+
+200 is a standar status code. os other common one is 404 not Found error.
+
+
+https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/readyState
+
+xhr.open("GET", "https://swapi.co/api");//open method says get and the address we wanna get.Two main Methods: Get() and POST
+
+xhr.send(); 
